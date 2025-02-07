@@ -212,18 +212,37 @@
                     <p><i class="uil uil-phone"></i> Tel: +353899616493</p>
                 </div>
              </div>
-             <form class="form-control" id="contactForm" action="/send" method="POST">
-                <div class="form-inputs">
-                    <input type="text" class="input-field" placeholder="Name" id="name" name="name" required>
-                    <input type="email" class="input-field" placeholder="Email" id="email" name="email" required>
+             <form
+                action="https://formspree.io/f/mqaellvj"
+                class="fs-form"
+                target="_top"
+                method="POST"
+                >
+                <div class="fs-field">
+                    <label class="fs-label" for="name">Your Name</label>
+                    <input class="fs-input" id="name" name="name" required />
                 </div>
-                <div class="text-area">
-                    <textarea placeholder="Message" id="message" name="message" required></textarea>
+                <div class="fs-field">
+                    <label class="fs-label" for="email">Email</label>
+                    <input class="fs-input" id="email" name="email" required />
+                    <p class="fs-description">
+                    This will help me respond to your query via an email.
+                    </p>
                 </div>
-                <div class="form-button">
-                    <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                <div class="fs-field">
+                    <label class="fs-label" for="message">Message</label>
+                    <textarea
+                    class="fs-textarea"
+                    id="message"
+                    name="message"
+                    required
+                    ></textarea>
+                    <p class="fs-description">What would you like to discuss?</p>
                 </div>
-            </form>
+                <div class="fs-button-group">
+                    <button class="fs-button" type="submit">Submit</button>
+                </div>
+                </form>
           </div>
        </section>
     </main>
