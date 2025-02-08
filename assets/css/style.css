@@ -9,10 +9,10 @@
     --text-color-second: rgb(68, 68, 68);
     --text-color-third: rgb(155, 79, 43);
 
-    --first-color: rgb(110, 87, 224);
-    --first-color-hover: rgb(40, 91, 212);
+    --first-color: rgb(40, 91, 212);
+    --first-color-hover:rgb(110, 87, 224) ;
 
-    --second-color: rgb(0, 201, 255);
+    --second-color: rgba(51, 155, 82, 0.888);
     --third-color: rgb(192, 166, 49);
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
@@ -646,8 +646,8 @@ footer{
 :root {
   --color-background: #e7e7e7;
   --color-background-alt: #888888;
-  --color-border-active: #da7105;
-  --color-border-default: #d1d1d1;
+  --color-border-active: #2ea86d;
+  --color-border-default: #221414;
   --color-highlight: #fdcf4c;
   --color-primary: #b64e08;
   --color-primary-active: #79320e;
@@ -881,7 +881,7 @@ fieldset {
 }
 
 .fs-select {
-  background-color: #fff;
+  background-color: #131212;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
   background-position: right 0.75rem center;
   background-repeat: no-repeat;
