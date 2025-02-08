@@ -362,10 +362,11 @@ h3{
 }
 
 /* ----- PROJECTS BOX ----- */
-.project-container{
+.project-container {
     display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if needed */
     width: 100%;
-    justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -381,6 +382,7 @@ h3{
     border-radius: 20px;
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
+    text-decoration: none;
 }
 .project-box>i{
     font-size: 50px;
